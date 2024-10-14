@@ -1,0 +1,433 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: rgb(255, 255, 255);
+}
+
+
+/*https://promo.toflowdesign.com.br/agencia-jet/*/
+
+
+
+html , body {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+.icons-container {
+    display: flex; /* Alinha as imagens lado a lado */
+    gap: 10px; /* Espaçamento entre as imagens, ajuste conforme necessário */
+}
+
+.icons-container img {
+    width: 11px; /* Define a largura das imagens para 14px */
+    height: 12px; /* Define a altura das imagens para 14px (ou pode ser auto, dependendo da imagem) */
+    margin-top: 22px;   
+}
+
+.divum{
+    display: flex;
+    border-bottom: 1px rgba(0, 0, 0, 0.288) solid;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.divumh1{
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 150px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+/*inicio div2*/
+
+.divdoislogo{
+    width: 400px;
+    height: 68px;
+    margin-left: 110px;
+}
+
+.menuum{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.ulum{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-left: 240px;
+}
+.ulum > li{
+    display: inline-block;
+    
+}
+
+
+
+.ulum > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+
+.ulum > li > a:hover{
+    background-color: #A71413;
+    color: aliceblue;    
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+
+
+.menuum{
+    margin-top: 20px;
+
+}
+
+/*inicio div 3*/
+
+.divTresback{
+    background: url(/img/s1.jpg) no-repeat center center; /* Centraliza e impede a repetição */
+    background-size: cover; /* Faz a imagem cobrir toda a área da div sem distorcer */
+    height: 600px;
+
+}
+
+.divTresautura{
+    padding-top: 180px;
+    padding-left: 150px;
+    color: aliceblue;
+}
+
+.divTresautura > h2{
+    font-weight: 200;
+    font-size: 18px;
+}
+.divTresautura h3 {
+    color: rgb(0, 0, 0);          /* Cor do texto */
+    background-color: rgb(255, 255, 255);       /* Cor de fundo */
+    border: 1px solid black;      /* Define a borda: 2px de espessura, linha sólida, cor preta */
+    padding: 5px;                /* Espaçamento interno para criar espaço entre o texto e a borda */
+    display: inline-block;
+    font-weight: 200;
+}
+
+.divquatro{
+    background-color: rgb(255, 255, 255);
+    
+    text-align: center;
+    padding: 40px 0 ;
+
+}
+
+.divquatro h1{
+    font-weight: 200;
+    color: #7C0304;
+
+
+}
+
+
+.divquatro p{
+    font-weight: 100;
+    color: #777373 ;
+
+}
+
+.divcinco{
+    background: url(/img/istockphoto-927319994-170667a.jpg)no-repeat center center;
+    background-size: cover; /* Faz a imagem cobrir toda a área da div sem distorcer */
+    height: 750px;
+
+}
+.divcinco h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
+    color: #7C0304;
+    padding: 40px 40px;
+}
+
+
+.divcincard{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+    
+
+    
+}
+
+.dicincoimag{
+    width: 330px;
+    height: 220px
+}
+
+.divcincard p {
+    font-size: 15px;
+    padding: 8px 5px;
+
+}
+
+.divcincovalor{
+    font-size: 20px;
+}
+.divcincobtn{
+    background-color: #7C0304;
+    border: 0px;
+    padding: 4px 20px;
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.divcincoflex{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+
+}
+
+/*inicio section 6*/
+
+.divseisflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+
+.divseisimg{
+    width: 500px;
+    height: 500px;
+    margin-bottom: -4px;
+}
+
+.icons-container > img:hover{
+    background-color: rgb(241, 189, 189);    
+    padding: 3px  3px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.divseisflex h1{
+    color: #7C0304;
+    font-weight: 200;
+}
+
+
+.divseisflex p{
+    font-weight: 300;
+}
+
+.divseisflex button {
+    background-color: #7C0304;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+/*inicio div 7*/
+.divseteback{
+    background: url(/img/back04.png)no-repeat center center;
+    background-size: cover; /* Faz a imagem cobrir toda a área da div sem distorcer */
+    height: 350px;
+}
+
+/*inicio div 8*/
+
+.div8back{
+    background: url(/img/istockphoto-927319994-170667a.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 60px;
+}
+    
+.div8h1{
+    text-align: center;
+    color: #7C0304;
+    font-weight: 200;
+    font-size: 45px;
+    padding: 50px 50px;
+
+}
+
+.divoitoflex{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+
+.divoitoflex .dicincoimag {
+    width: 500px;
+
+}
+
+.divoitoflex p{
+    font-size: 20px;
+}
+
+.divcincard .divcincovalor{
+    font-size: 30px;
+}
+
+.divcincard .divcincobtn{
+    font-size: 25px;
+}
+
+.divcincobtn:hover{
+    background-color: black;
+    font-size: 22px;
+}
+
+/*inicio div 9*/
+
+.div9back{
+    background: url(/img/rodape1.jpg) no-repeat center ;
+    background-size: cover;
+    height: auto;
+    margin-top: -38px;
+  
+
+}
+.btpedir:hover{
+    background-color: black;
+    font-size: 14px;
+
+}
+
+.div9back h1{
+    text-align: center;
+    padding: 220px 120px ;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 45px;
+    
+
+
+    
+}
+
+/*inicio div 10*/
+
+.divdezflex{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+
+}
+
+.div10h1{
+    font-weight: 300;
+    border-bottom: 1.8px solid #7C0304 ;
+    display: inline-block; 
+    width: 40%;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    
+
+
+}
+
+
+
+.uldez li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    
+    
+    
+
+}
+
+
+.div10h12{
+    font-size: 15px;
+    font-weight: 200;
+    border-top: 1.8px solid rgba(131, 131, 131, 0.493);
+    padding-top: 5px;
+
+}
+
+.div10color a {
+    color: #7C0304;
+
+}
+
+/*inicio div 11*/
+
+
+.divultimaback{
+    background-color: #7C0304;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divultimaback h1 {
+    font-size: 15px;
+    padding: 40px 0;        /* Margem superior e inferior de 40px */
+    color: aliceblue;
+    font-weight: 200;
+    text-align: center;     /* Centraliza o texto horizontalmente */
+    margin: 0 auto;         /* Garante que não haja margem lateral */
+    width: 100%;            /* Define a largura total do h1 */
+}
+
+
+
+
+.uldez> li > a:hover{
+    background-color: #A71413;
+    color: aliceblue;    
+    padding: 1px 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+
+.cont > img:hover{
+    background-color: rgb(241, 189, 189);    
+    padding: 3px  3px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+
+
+
+}
+
+
+
+
