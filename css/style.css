@@ -8,6 +8,9 @@ body{
 /*https://promo.toflowdesign.com.br/agencia-jet/*/
 
 
+/*16;15 continuar*/
+
+
 
 html , body {
   font-family: "Roboto Flex", sans-serif;
@@ -56,6 +59,115 @@ html , body {
 
 }
 
+
+
+/* Menu mobile */
+
+.btn-abrir-menu i {
+    color: #A71413;
+    font-size: 40px;
+    position: absolute; /* Torna possível posicionar o elemento */
+    top: 10px; /* Ajuste conforme necessário */
+    right: 10px; /* Ajuste conforme necessário */
+}
+
+
+
+
+
+
+.menu-mobile{
+    background-color: #a71313a4;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menudois{
+    display: block;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+    
+}
+
+.menu-mobile .btn-fechar{
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+
+
+.menu-mobile nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+    transition: .5s;
+    
+}
+.menu-mobile nav ul li a:hover {
+    background-color: #ffffff; /* Altera a cor de fundo no hover */
+    color: #000000;
+    
+}
+
+
+
+
+
+.menu-mobile nav ul li{
+    color: #7c030300;
+    }
+
+
+.menu-mobile a {
+    
+    text-decoration: none; /* Remove a sublinha */
+    color: inherit; /* Usa a cor do texto herdada */
+    
+    
+}
+.menu-mobile nav ul li {
+    margin-bottom: 20px; /* Adiciona espaço entre os itens */
+}
+
+.overlay-menudois {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semitransparente */
+    position: fixed; /* Posiciona a sobreposição para cobrir toda a tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998; /* Deve estar abaixo do menu-mobile */
+    display: none;
+   
+}
+
+
+
+
+
+
+
 /*inicio div2*/
 
 .divdoislogo{
@@ -90,7 +202,7 @@ html , body {
     
 }
 
-.ulum > li > a:hover{
+.ulum > li > .menuum a:hover{
     background-color: #A71413;
     color: aliceblue;    
     padding: 8px 13px;
@@ -407,7 +519,7 @@ html , body {
 
 
 
-.uldez> li > a:hover{
+.uldez> li > .menuum > a:hover{
     background-color: #A71413;
     color: aliceblue;    
     padding: 1px 1px;

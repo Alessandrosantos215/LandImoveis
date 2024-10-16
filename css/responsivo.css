@@ -5,6 +5,11 @@
         font-size: 10px;
     }
 
+    .btn-abrir-menu{
+        display: none;
+
+    }
+
 
 
 }
@@ -197,6 +202,16 @@
 
 
 @media only screen and (max-width: 640px){
+    .btn-abrir-menu{
+        display: block;
+
+    }
+
+
+    .divum{
+        margin-left: -40px;
+
+    }
 
 
 
